@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>FOTOBUCH</title>
+    <link>https://tbichay.github.io/fotobuch-releases/</link>
+    <description>Editorial photo books, straight from your Mac's Photos library.</description>
+    <language>de</language>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Sat, 18 Jul 2026 19:43:53 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://tbichay.github.io/fotobuch-releases/FOTOBUCH-0.1.0.zip" length="3239914" type="application/octet-stream" sparkle:edSignature="BM+cBDt/RkaDMyYQvRpWRUVNAjkOICLbUr0tQ/ch5o3rpPkpBt+2Pi1yBGmWX++QqUVq3FLW6SdPWjEgA9cfAA==" />
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FOTOBUCH — Download</title>
+<style>
+  :root {
+    color-scheme: light;
+    --paper: #EFE6D3;
+    --ink: #221E17;
+    --muted: #6E655A;
+    --accent: #B0553B;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "SF Pro Text", "Helvetica Neue", sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 32px 20px 60px;
+  }
+  main {
+    max-width: 560px;
+    text-align: center;
+  }
+  .icon {
+    width: 156px;
+    height: 156px;
+    border-radius: 34px;
+    box-shadow: 0 12px 30px rgba(34,30,23,0.14), 0 2px 4px rgba(34,30,23,0.08);
+    margin-bottom: 28px;
+  }
+  h1 {
+    font-family: "New York", "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: 0.02em;
+    margin: 0 0 6px;
+  }
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+  p.lede {
+    font-size: 17px;
+    line-height: 1.55;
+    color: var(--muted);
+    margin: 0 0 32px;
+  }
+  .download {
+    display: inline-block;
+    padding: 14px 32px;
+    background: var(--ink);
+    color: var(--paper);
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    transition: transform 0.15s ease, background 0.15s ease;
+  }
+  .download:hover { transform: translateY(-1px); background: var(--accent); }
+  .meta {
+    margin-top: 18px;
+    font-size: 12px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+  section {
+    margin-top: 44px;
+    text-align: left;
+    background: rgba(255,255,255,0.5);
+    border-radius: 14px;
+    padding: 22px 26px;
+  }
+  section h2 {
+    font-family: "New York", "Times New Roman", serif;
+    font-size: 18px;
+    margin: 0 0 12px;
+  }
+  section p, section li { font-size: 14px; line-height: 1.6; color: var(--ink); }
+  section ol { margin: 0; padding-left: 22px; }
+  section ol li { margin-bottom: 6px; }
+  code {
+    background: rgba(34,30,23,0.08);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 12.5px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="FOTOBUCH">
+  <div class="kicker">macOS · für die Familie</div>
+  <h1>FOTOBUCH</h1>
+  <p class="lede">Redaktionelle Fotobücher aus deiner Mac-Mediathek. AI-Kuration, echte Layouts, druckfertiges PDF für Saal Digital.</p>
+  <a class="download" href="FOTOBUCH-0.1.0.zip">Version 0.1.0 laden</a>
+  <div class="meta">macOS 15 · Apple Silicon empfohlen · 3,3 MB</div>
+
+  <section>
+    <h2>Erste Installation</h2>
+    <ol>
+      <li>Zip herunterladen und entpacken.</li>
+      <li><strong>FOTOBUCH.app</strong> in den Ordner <em>Programme</em> ziehen.</li>
+      <li>Beim ersten Start: <strong>Rechtsklick → Öffnen</strong> (Gatekeeper-Warnung einmalig bestätigen).</li>
+      <li>Fotos-Berechtigung freigeben, wenn danach gefragt wird.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Updates</h2>
+    <p>Sobald eine neue Version verfügbar ist, meldet FOTOBUCH das beim nächsten Start. Manuell prüfen über <code>FOTOBUCH → Nach Updates suchen…</code></p>
+  </section>
+</main>
+</body>
+</html>
